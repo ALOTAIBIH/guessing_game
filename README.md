@@ -1,6 +1,6 @@
 # guessing_game
 -- File     : Proj1.hs
--- Author   : Hissah Alotaibi (alotaibih@student.unimelb.edu.au)
+-- Author   : Hissah Alotaibi (hissahalotaibi5@gmail.com)
 -- ID       : 1042537
 -- Date     : Tuesday, 4 May 2021
 -- Purpose  : Guessing and feedback parts of a guessing game
@@ -24,4 +24,14 @@
 --   to get what I need to know/remember between guesses,
 --   it will pare down when receiving answer/feedback for a guess.
 --   Initial Guess: generate initial guess by given answer card number.
---   Next Guess: take previous guess, old game state and 
+--   Next Guess: take previous guess, old game state and feedback for providing next guess. 
+
+-- |The strategy used in this project is 
+--  we used hardcode to initial first guess,
+--  to keep a list of possible guesses, that is, 
+--  the guesses that the feedback we got so far did not exclude. 
+--  When we do guess, we choose one of the possible guesses that 
+--  would leave us with the fewest remaining possible guesses 
+--  when we receive the feedback for it. 
+--  This can be done by calculating the weighted average length of the list 
+--  of remaining possible guesses over the sizes of that list.
