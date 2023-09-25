@@ -1,7 +1,6 @@
 # guessing_game
 -- File     : Proj1.hs
 -- Author   : Hissah Alotaibi (hissahalotaibi5@gmail.com)
--- ID       : 1042537
 -- Date     : Tuesday, 4 May 2021
 -- Purpose  : Guessing and feedback parts of a guessing game
 
